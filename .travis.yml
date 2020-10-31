@@ -9,10 +9,10 @@ script: "./build.sh && mv -v releases/bash releases/bash-$TRAVIS_OS_NAME"
 deploy:
   provider: releases
   api_key:
-    secure: Ddq9WgcyJu2z+zy+3sOhHMSm1DgZ0BsgzrKJ3xzSmB7uG5qmeyP2nUj7SU7Xj3gBv9tP1n5wovw0bZlLbW02FGRYTFPdBqX8vMvGU2Zfa4b5HeyntWSCWTTwDx7i2S0/BY+cSlVwjQ8krMEMI2V0yp9r27pTUXSJhI75ZqJfSu0=
+    secure: lcJDu9OHPSqtwkQCMkXzn6nmSAN9RLjndTEeWqBDlKRTJMz6wn/K8KutVkXexuUCD1YxZ4g4BTgu/JQnlrAKSVCIjSQnyuWCiOFiM0veYzY9qRHZ+cMyUT2VoT9surhbbvr41FUDTKU2Lw+fEeJ2uppuWPX9bCBE9K9i42lCsHzBQMWQsaZCHwiXC080RAjidYgRtJYn+HNg3ajEdvM/nD45cSzNcTLcgS/Kh3WFqJ2USJitoJkhzhjocrbQJTkHl4OlKAtTXNJVYpMb6e5Do2bmNq4TWxdbaDwMgqSopcjhFz1GDNgMJELKtd6SdL0tsqFkbjXAb+ss0Upbegv460HZwmk9UONdTwvTd9HnEF9pBXYq1cmGtink80bfGRQkz5VcHdclaMXU85IkBuGr3zQsbh4tMOKAqdvmHf8xTqnMP6sXmZl+UiJr16Uf3m2LniP8i63SlxlFEfSG2ggXHTPwjfShl6xlB3KkViuxSGqTWZ+bA91stmCtqyexW+2Cytx3eFRixLLdzY4X4iI4D3bUQVEYFc2L8ZFQn+TbbyQpyfOjI+66G0s9cXNhlV5yBsCYetN+J1RtiYQvn1XKGe//VqMCN61pWdP9SAdMQBs3/kWc0djDwubKoiEkBOE7qFqXg+KbkQmBhZMx7vY/VihMWZUmxnYer0BJ6+RHZ8g=
   file: releases/bash-$TRAVIS_OS_NAME
   skip_cleanup: true
   on:
-    repo: robxu9/bash-static
+    repo: lalyos/bash-static
     tags: true
     all_branches: true
