@@ -1,3 +1,6 @@
+> This fork is only here for releasing 5.0.XXX patch versions.
+> See [Latest](../../releases/latest)
+
 # bash-static
 
 Because we all need the most static bash we can get in this world.
